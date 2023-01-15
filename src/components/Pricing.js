@@ -10,7 +10,7 @@ function Pricing() {
           </p>
           <p className="about-section">
             Also there is a membership fee: 250 sek. It should be paid once a
-            year. Sign * means: opportunity to visit more than 3 trainings a
+            year. Sign * means opportunity to visit more than 3 trainings a
             week without additional fees. Also you get 10% discount for every
             additional membership in our club.
           </p>
@@ -32,9 +32,6 @@ function Pricing() {
                     </h4>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-pricing btn-lg">
-                  Book a class
-                </button>
               </div>
             </div>
             <div class="col-4">
@@ -60,9 +57,6 @@ function Pricing() {
                     </h4>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-pricing btn-lg">
-                  Book a class
-                </button>
               </div>
             </div>
             <div class="col-4">
@@ -88,9 +82,6 @@ function Pricing() {
                     </h4>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-pricing btn-lg">
-                  Book a class
-                </button>
               </div>
             </div>
           </div>
