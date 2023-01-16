@@ -5,7 +5,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid base">
           <a className="navbar-brand" href="#banner">
-            <img src="logo.png" alt="" width="80" height="74" />
+            <img className="nav-img" src="logo.png" alt="" />
           </a>
           <button
             className="navbar-toggler"
