@@ -19,7 +19,7 @@ function Banner() {
               className="col-lg-6 col-md-4 col-sm"
               style={{ paddingLeft: "0px" }}
             >
-              <img src="banner_gymnast1.png" alt="" width="70%" />
+              <img className="gymn-img" src="banner_gymnast1.png" alt="" />
             </div>
           </div>
         </div>

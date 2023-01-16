@@ -115,6 +115,78 @@ ul.ul-locations {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  h1 {
+    font-size: 55px !important;   
+    padding-left: 2%; 
+  }
+
+  h4.h4-banner {
+    font-size: 13px !important;
+  }
+
+  .nav-img {
+    width: 50px !important;
+    height: 44px !important;
+  }
+
+  .banner {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+  }
+
+  .banner-pic {
+    padding-right: 25% !important;
+  }
+
+  .gymn-img {
+    width: 100% !important;
+  }
+
+  .btn  {
+    font-size: 15px !important;
+  }
+
+  .btn-banner {
+    margin-left: 18% !important;
+    margin-right: 18% !important;
+  }
+
+  ul.ul-locations {
+  padding-top: 45% !important;
+}
+
+ul {
+  padding-left: 10% !important;
+}
+
+#pricing {
+    background-position: top -5% left -25% !important;
+  }
+
+  h3 {
+    font-size: 23px !important;
+  }
+
+  h4 {
+    font-size: 18px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  li {
+    font-size: 15px !important;
+  }
+
+  .form-control {
+  font-size: 13px !important;
+  padding: 5% 6%;
+}
+
+.message {
+  padding: 2.5% 3%;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -207,6 +279,10 @@ ul.ul-locations {
 
   .banner-pic {
     padding: 10% 5% 10% 1%;
+  }
+
+  .gymn-img {
+    width: 70%;
   }
 
   .container-fluid {
