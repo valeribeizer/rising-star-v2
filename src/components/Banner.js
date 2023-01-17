@@ -8,17 +8,16 @@ function Banner() {
         <NavBar />
         <div className="container banner-pic">
           <div className="row">
-            <div className="col-lg-6 col-md-8 col-sm">
+            <div className="col-md-6 col-lg-6">
               <h1>Rising Star</h1>
               <h4 className="h4-banner">GYMNASTICS CLUB</h4>
-              <button type="button" class="btn btn-banner">
-                BECOME A MEMBER
-              </button>
+              <a className="nav" href="#member">
+                <button type="button" class="btn btn-banner">
+                  BECOME A MEMBER
+                </button>
+              </a>
             </div>
-            <div
-              className="col-lg-6 col-md-4 col-sm"
-              style={{ paddingLeft: "0px" }}
-            >
+            <div className="col-md-6 col-lg-6" style={{ paddingLeft: "0px" }}>
               <img className="gymn-img" src="banner_gymnast1.png" alt="" />
             </div>
           </div>

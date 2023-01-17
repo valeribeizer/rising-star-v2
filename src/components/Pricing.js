@@ -15,7 +15,7 @@ function Pricing() {
             additional membership in our club.
           </p>
           <div className="row row-pricing text-center">
-            <div className="col-4">
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
               <div className="card">
                 <h3>Beginners</h3>
                 <ul>
@@ -34,7 +34,7 @@ function Pricing() {
                 </ul>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
               <div className="card">
                 <h3>Intermediate</h3>
                 <ul>
@@ -59,7 +59,7 @@ function Pricing() {
                 </ul>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
               <div className="card">
                 <h3>Stretching</h3>
                 <ul>

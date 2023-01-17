@@ -62,12 +62,12 @@ function Member() {
         <div>
           <h2>Become a member</h2>
           <div className="row row-member">
-            <div className="col-6">
+            <div className="col-12 col-md-6 col-lg-6">
               <img className="member-img" src="member-img.png" alt="img" />
             </div>
-            <div className="col-6">
+            <div className="col-12 col-md-6 col-lg-6">
               <form className="row g-3" onSubmit={sendEmail}>
-                <div className="col-6">
+                <div className="col-12 col-md-6 col-lg-6">
                   <input
                     type="text"
                     className="form-control"
@@ -77,7 +77,7 @@ function Member() {
                     onChange={(e) => onFormUpdate("firstName", e.target.value)}
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6 col-lg-6">
                   <input
                     type="text"
                     className="form-control"
@@ -87,7 +87,7 @@ function Member() {
                     onChange={(e) => onFormUpdate("lastName", e.target.value)}
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6 col-lg-6">
                   <input
                     type="email"
                     className="form-control"
@@ -97,7 +97,7 @@ function Member() {
                     onChange={(e) => onFormUpdate("email", e.target.value)}
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6 col-lg-6">
                   <input
                     type="tel"
                     className="form-control"
