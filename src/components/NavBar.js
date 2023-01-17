@@ -32,7 +32,7 @@ function NavBar() {
               <a className="nav-link px-4" href="#member">
                 Become a member
               </a>
-              <a className="nav" href="#contact">
+              <a className="nav-link px-4" href="#contact">
                 <button type="button" class="btn">
                   Contact
                 </button>

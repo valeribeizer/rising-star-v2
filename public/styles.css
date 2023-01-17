@@ -130,8 +130,8 @@ li {
 }
 
 .nav {
-  padding-left: 7%;
   text-decoration: none;
+  align-items: center;
 }
 
 .gymn-img {
@@ -414,8 +414,13 @@ footer {
     font-size: 15px !important;
   }
 
+  .container-fluid {
+    padding: 0 7%;
+  }
+
   .banner {
     height: 500px !important;
+    background-size: cover;
   }
 
   .banner-pic {
@@ -502,8 +507,8 @@ footer {
   }
 }
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
   h1 {
     font-size: 100px !important;
     padding-left: 4%;
