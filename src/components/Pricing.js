@@ -19,13 +19,13 @@ function Pricing() {
               <div className="card">
                 <h3>Beginners</h3>
                 <ul>
-                  <li className="li-prices">
+                  <li>
                     1 time per week:{" "}
                     <h4>
                       1600<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
-                  <li className="li-prices">
+                  <li>
                     2 times per week:{" "}
                     <h4>
                       2500<small className="text-muted fw-light"> sek</small>
@@ -38,19 +38,19 @@ function Pricing() {
               <div className="card">
                 <h3>Intermediate</h3>
                 <ul>
-                  <li className="li-prices">
+                  <li>
                     1 time per week:{" "}
                     <h4>
                       1800<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
-                  <li className="li-prices">
+                  <li>
                     2 times per week:{" "}
                     <h4>
                       2700<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
-                  <li className="li-prices">
+                  <li>
                     3 times per week:{" "}
                     <h4>
                       3500<small className="text-muted fw-light"> sek</small>*
@@ -63,19 +63,19 @@ function Pricing() {
               <div className="card">
                 <h3>Stretching</h3>
                 <ul>
-                  <li className="li-prices">
+                  <li>
                     1 class:{" "}
                     <h4>
                       150<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
-                  <li className="li-prices">
+                  <li>
                     1 time per week:{" "}
                     <h4>
                       1800<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
-                  <li className="li-prices">
+                  <li>
                     2 times per week:{" "}
                     <h4>
                       2500<small className="text-muted fw-light"> sek</small>

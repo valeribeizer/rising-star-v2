@@ -194,10 +194,6 @@ iframe {
   padding: 10% 0% 10% 0%;
 }
 
-.li-prices {
-  text-align: left;
-}
-
 .row-pricing {
   padding: 2% 15%;
 }
@@ -541,12 +537,7 @@ footer {
 
   li {
     font-size: 22px !important;
-    text-align: left;
     padding: 3%;
-  }
-
-  ul {
-    padding-left: 15% !important;
   }
 
   ul.ul-locations {
