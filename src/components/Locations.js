@@ -7,10 +7,10 @@ function Locations() {
         <div>
           <h2>Locations</h2>
           <div className="row row-locations">
-            <div className="col-6 col-sm-8 col-md-8 col-lg-8">
+            <div className="col-12 col-sm-12 col-md-8 col-lg-8">
               <Carousel />
             </div>
-            <div className="col-6 col-sm-4 col-md-4 col-lg-4">
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4">
               <ul className="ul-locations">
                 <li>Sofia Skola</li>
                 <li>Hjorthagshallen</li>
