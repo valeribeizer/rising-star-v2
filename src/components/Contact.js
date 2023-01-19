@@ -10,30 +10,28 @@ function Contact() {
               <img className="email-img" src="email-img.png" alt="email" />
               <div className="card card-contact">
                 <h3>Drop us a letter!</h3>
-                <p className="contact-section">rg.risingstar@gmail.com</p>
+                <p className="contact-section">rg.risingstar@<br />gmail.com</p>
               </div>
             </div>
             <div className="col-6">
               <img className="heart-img" src="heart-img.png" alt="heart" />
               <div
-                className="card card-contact align-items-center"
-                // style={{ marginBottom: "10px" }}
+                className="card card-contact align-self-center"
               >
                 <a
                   className="a-c"
                   href="https://www.instagram.com/rg.risingstar"
                 >
-                  <h3 className="h3-inst">
-                    Instagram us
+                  <h3>
+                    Instagram
                   </h3>
                 </a>
-                <img className="line-img" src="line-img.png" alt="line" />
                 <a
                   className="a-c"
                   href="https://www.facebook.com/rg.risingstar"
                 >
-                  <h3 className="h3-face">
-                    Facebook us
+                  <h3>
+                    Facebook
                   </h3>
                 </a>
               </div>

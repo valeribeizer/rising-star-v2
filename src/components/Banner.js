@@ -4,21 +4,21 @@ import NavBar from './NavBar';
 function Banner() {
 
     return (
-      <div id="banner" className="banner">
+      <div id="banner">
         <NavBar />
-        <div className="container banner-pic">
-          <div className="row">
-            <div className="col-md-6 col-lg-6">
+        <div className="container">
+          <div className="row row-banner">
+            <div className="col-lg-6 text-center align-self-center">
               <h1>Rising Star</h1>
               <h4 className="h4-banner">GYMNASTICS CLUB</h4>
-              <a className="nav" href="#member">
+              <a href="#member">
                 <button type="button" class="btn btn-banner">
                   BECOME A MEMBER
                 </button>
               </a>
             </div>
-            <div className="col-md-6 col-lg-6" style={{ paddingLeft: "0px" }}>
-              <img className="gymn-img" src="banner_gymnast1.png" alt="" />
+            <div className="col-lg-6 text-center align-self-center">
+              <img className="gymn-img" src="banner_gymnast.png" alt="" />
             </div>
           </div>
         </div>

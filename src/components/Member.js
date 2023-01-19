@@ -62,7 +62,7 @@ function Member() {
         <div>
           <h2>Become a member</h2>
           <div className="row row-member">
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6 text-center align-self-center">
               <img className="member-img" src="member-img.png" alt="img" />
             </div>
             <div className="col-12 col-md-6 col-lg-6">
@@ -138,7 +138,7 @@ function Member() {
                   </div>
                 </div>
                 <div className="col-12">
-                  <button type="submit" className="btn btn-primary">
+                  <button type="submit" className="btn btn-outline btn-navbar">
                     {buttonText}
                   </button>
                 </div>

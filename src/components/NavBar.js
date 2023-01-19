@@ -8,18 +8,15 @@ function NavBar() {
             <img className="nav-img" src="logo.png" alt="" />
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler ml-auto custom-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav ms-auto">
+            <div className="navbar-nav ms-auto d-flex align-items-center">
               <a className="nav-link px-4" href="#about">
                 About Us
               </a>
@@ -33,7 +30,7 @@ function NavBar() {
                 Become a member
               </a>
               <a className="nav-link px-4" href="#contact">
-                <button type="button" class="btn">
+                <button type="button" class="btn btn-outline btn-navbar">
                   Contact
                 </button>
               </a>

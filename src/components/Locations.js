@@ -7,11 +7,11 @@ function Locations() {
         <div>
           <h2>Locations</h2>
           <div className="row row-locations">
-            <div className="col-12 col-sm-12 col-md-8 col-lg-8">
+            <div className="col-12 col-sm-12 col-md-8 col-lg-8 text-center align-self-center">
               <Carousel />
             </div>
-            <div className="col-12 col-sm-12 col-md-4 col-lg-4">
-              <ul className="ul-locations">
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4 text-center align-self-center">
+              <ul>
                 <li>Sofia Skola</li>
                 <li>Hjorthagshallen</li>
                 <li>Nybohovsskolan</li>
