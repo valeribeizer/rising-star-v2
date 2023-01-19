@@ -1,8 +1,8 @@
 /**********/
 body {
-  background-image: url("stars-min.png");
+  background-image: url("stars.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   font-family: "Ubuntu", sans-serif;
   color: #216583;
 }
@@ -77,51 +77,56 @@ li {
 
 /********LOADING_SCREEN***********/
 #loadingScreen {
-  background-image: url("stars-loading-min.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(15, 52, 122);
+  background: linear-gradient(
+    247deg,
+    rgba(15, 52, 122, 1) 0%,
+    rgba(33, 101, 131, 1) 42%,
+    rgba(41, 52, 98, 1) 87%
+  );
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 900px;
 }
 
 #loadingScreen img {
   width: 50%;
   margin: auto;
+  margin-top: 50%;
   display: block;
 }
 
 .scale-out-center {
-	-webkit-animation: scale-out-center 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
-	        animation: scale-out-center 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
+  -webkit-animation: scale-out-center 3s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    1s both;
+  animation: scale-out-center 3s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
 }
 
 @-webkit-keyframes scale-out-center {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
   100% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
 }
 @keyframes scale-out-center {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
   100% {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 1;
   }
 }
-
 
 /*******BANNER********/
 .row-banner {
@@ -213,6 +218,7 @@ iframe {
 /********PRICES********/
 #pricing {
   padding: 10% 0% 10% 0%;
+  color: #bad7e9;
 }
 
 #pricing h3 {
@@ -349,6 +355,10 @@ footer {
     padding: 10% 15% 10% 15%;
   }
 
+  #loadingScreen img {
+    margin-top: 30%;
+  }
+
   #about {
     padding: 30% 5% 10% 5%;
   }
@@ -421,6 +431,11 @@ footer {
 
   .rotate-vert-center {
     width: 30%;
+  }
+
+  #loadingScreen img {
+    width: 20%;
+    margin-top: 10%;
   }
 
   #about {
@@ -517,10 +532,6 @@ footer {
     padding-top: 30% !important;
   }
 
-  .rotate-vert-center {
-    width: 10%;
-  }
-
   .container-fluid {
     padding-left: 7%;
     padding-right: 7%;
@@ -543,6 +554,10 @@ footer {
 
   .gymn-img {
     width: 100% !important;
+  }
+
+  #loadingScreen img {
+    width: 20%;
   }
 
   #about {
