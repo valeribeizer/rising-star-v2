@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  color:rgb(247, 98, 98);
+  color: rgb(247, 98, 98);
   font-size: 38px;
   font-weight: 300;
   text-align: center;
@@ -52,7 +52,7 @@ p.about-section {
 
 p.contact-section {
   font-size: 14px;
-  color:rgba(247, 98, 98, 0.614);
+  color: rgba(247, 98, 98, 0.614);
   padding: 10% 10% 0% 10%;
 }
 
@@ -75,6 +75,54 @@ li {
   background-color: rgb(247, 98, 98, 0.2);
 }
 
+/********LOADING_SCREEN***********/
+#loadingScreen {
+  background-image: url("stars-loading.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+#loadingScreen img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.scale-out-center {
+	-webkit-animation: scale-out-center 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: scale-out-center 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes scale-out-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+}
+@keyframes scale-out-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+}
+
+
 /*******BANNER********/
 .row-banner {
   padding: 10%;
@@ -89,7 +137,7 @@ li {
 .custom-toggler.navbar-toggler {
   border-color: #f76262;
   padding: 2px 8px !important;
-} 
+}
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 15px;
@@ -168,7 +216,7 @@ iframe {
 }
 
 #pricing h3 {
-  color:rgb(247, 98, 98);
+  color: rgb(247, 98, 98);
 }
 
 .row-pricing {
@@ -232,7 +280,7 @@ iframe {
 }
 
 #contact h3 {
-  color:rgb(247, 98, 98);
+  color: rgb(247, 98, 98);
   font-size: 16px;
 }
 
@@ -371,6 +419,10 @@ footer {
     padding: 0 7%;
   }
 
+  .rotate-vert-center {
+    width: 30%;
+  }
+
   #about {
     padding: 10%;
   }
@@ -463,6 +515,10 @@ footer {
 
   ul.ul-locations {
     padding-top: 30% !important;
+  }
+
+  .rotate-vert-center {
+    width: 10%;
   }
 
   .container-fluid {
