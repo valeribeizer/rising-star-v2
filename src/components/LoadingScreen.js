@@ -3,11 +3,7 @@ import React from 'react';
 function LoadingScreen() {
     return (
       <div id="loadingScreen">
-        <img
-          className="scale-out-center"
-          src="logo-loading.png"
-          alt="logo"
-        />
+        <img className="pulsate-fwd" src="logo-loading.png" alt="logo" />
       </div>
     );
 };
