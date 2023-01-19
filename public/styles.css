@@ -1,6 +1,6 @@
 /**********/
 body {
-  background-image: url("stars.png");
+  background-image: url("stars-min.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Ubuntu", sans-serif;
@@ -77,7 +77,7 @@ li {
 
 /********LOADING_SCREEN***********/
 #loadingScreen {
-  background-image: url("stars-loading.png");
+  background-image: url("stars-loading-min.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
