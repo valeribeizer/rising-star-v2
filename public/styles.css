@@ -93,8 +93,8 @@ li {
 }
 
 .scale-out-center {
-	-webkit-animation: scale-out-center 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: scale-out-center 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: scale-out-center 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
+	        animation: scale-out-center 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
 }
 
 @-webkit-keyframes scale-out-center {
