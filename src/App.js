@@ -31,9 +31,9 @@ function App() {
           <Contact />
           <Footer />
         </div>
-      )}
+       )}
     </div>
-  );
+  ); 
 }
 
 export default App;
