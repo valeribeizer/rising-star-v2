@@ -320,11 +320,6 @@ iframe {
   margin-bottom: -30px;
 }
 
-.line-img {
-  width: 50%;
-  height: 50px;
-}
-
 /********FOOTER*********/
 footer {
   font-size: 12px;
@@ -342,16 +337,6 @@ footer {
   h3 {
     font-size: 28px;
     padding-top: 10%;
-  }
-
-  .h3-inst {
-    padding: 30% 0 0 0 !important;
-    font-size: 23px;
-  }
-
-  .h3-face {
-    padding: 0 0 10% 0 !important;
-    font-size: 23px;
   }
 
   p.contact-section {
@@ -394,16 +379,6 @@ footer {
     font-size: 20px !important;
   }
 
-  .h3-inst {
-    padding: 8% 0 0 0 !important;
-    font-size: 25px !important;
-  }
-
-  .h3-face {
-    padding: 0 0 15% 0 !important;
-    font-size: 25px !important;
-  }
-
   h4 {
     font-size: 18px !important;
   }
@@ -431,10 +406,6 @@ footer {
 
   .container-fluid {
     padding: 0 7%;
-  }
-
-  .rotate-vert-center {
-    width: 30%;
   }
 
   #loadingScreen img {
