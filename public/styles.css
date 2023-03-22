@@ -210,6 +210,34 @@ li {
   display: block;
 }
 
+.dropdown-menu {
+  background: none;
+}
+
+.btn-secondary {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  padding-right: 0px;
+}
+
+.btn-secondary:hover {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-secondary:active:focus {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.btn-rth {
+  margin: auto 10px;
+}
+
 /*******ABOUT US*********/
 #about {
   padding: 30% 5% 10% 5%;
@@ -368,10 +396,6 @@ footer {
   #loadingScreen img {
     margin-top: 30%;
   }
-
-  .dropdown {
-   direction: rtl;
-}
 
   #about {
     padding: 30% 5% 10% 5%;

@@ -49,22 +49,48 @@ function NavBar() {
                 {t("contact")}
               </button>
             </a>
-            <div className='dropdown'>
-              <FaGlobe style={{ color: "#f76262" }} />
-              <div className="dropdown-content">
-                {lngs.map((lng) => {
-                  const { code, native } = lng;
-                  return (
-                    <button
-                      className="btn btn-outline btn-navbar"
-                      onClick={() => handleChange(code)}
-                    >
-                      {native}
-                    </button>
-                  );
-                })}
+            {window.screen.width > 576 ? (
+              <div className="dropdown">
+                <FaGlobe style={{ color: "#f76262" }} />
+                <div className="dropdown-content">
+                  {lngs.map((lng) => {
+                    const { code, native } = lng;
+                    return (
+                      <button
+                        className="btn btn-outline btn-navbar"
+                        onClick={() => handleChange(code)}
+                      >
+                        {native}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
+            ) : (
+              <div class="btn-group dropend">
+                <button
+                  type="button"
+                  class="btn btn-secondary dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <FaGlobe style={{ color: "#f76262" }} />
+                </button>
+                <ul class="dropdown-menu">
+                    {lngs.map((lng) => {
+                      const { code, native } = lng;
+                      return (
+                        <button
+                          className="btn btn-outline btn-navbar btn-rth"
+                          onClick={() => handleChange(code)}
+                        >
+                          {native}
+                        </button>
+                      );
+                    })}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
