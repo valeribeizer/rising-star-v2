@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import emailjs from "@emailjs/browser";
+import { useTranslation } from 'react-i18next';
 
 function Member() {
+  const { t } = useTranslation();
     const formInitialDetails = {
       firstName: "",
       lastName: "",
@@ -15,7 +17,7 @@ function Member() {
       []
     );
 
-    const [buttonText, setButtonText] = useState("Send");
+    const [buttonText, setButtonText] = useState(t('btn_text'));
     const [formDetails, setFormDetails] = useState(formInitialDetails);
     const [isChecked, setIsChecked] = useState(false);
 
@@ -51,16 +53,16 @@ function Member() {
             }
           );
         setFormDetails(formInitialDetails);
-        setButtonText("We got it!");
+        setButtonText(t('btn_success_text'));
       } else {
-        setButtonText("Check your fields!");
+        setButtonText(t('btn_error_text'));
       }
     };
 
     return (
       <section id="member">
         <div>
-          <h2>Become a member</h2>
+          <h2>{t('member')}</h2>
           <div className="row row-member">
             <div className="col-12 col-md-6 col-lg-6 text-center align-self-center">
               <img className="member-img" src="member-img.png" alt="img" />
@@ -72,7 +74,7 @@ function Member() {
                     type="text"
                     className="form-control"
                     name="firstName"
-                    placeholder="First name*"
+                    placeholder={t('fname')}
                     value={formDetails.firstName}
                     onChange={(e) => onFormUpdate("firstName", e.target.value)}
                   />
@@ -82,7 +84,7 @@ function Member() {
                     type="text"
                     className="form-control"
                     name="lastName"
-                    placeholder="Last name"
+                    placeholder={t('lname')}
                     value={formDetails.lastName}
                     onChange={(e) => onFormUpdate("lastName", e.target.value)}
                   />
@@ -102,7 +104,7 @@ function Member() {
                     type="tel"
                     className="form-control"
                     name="phone"
-                    placeholder="Phone No.*"
+                    placeholder={t('phone')}
                     value={formDetails.phone}
                     onChange={(e) => onFormUpdate("phone", e.target.value)}
                   />
@@ -112,7 +114,7 @@ function Member() {
                     rows="6"
                     className="form-control message"
                     name="message"
-                    placeholder="Message*"
+                    placeholder={t('msg')}
                     value={formDetails.message}
                     onChange={(e) => onFormUpdate("message", e.target.value)}
                   />
@@ -129,9 +131,9 @@ function Member() {
                       onChange={() => setIsChecked((prev) => !prev)}
                     />
                     <label className="form-check-label" for="gridCheck">
-                      By clicking you agree to our{" "}
+                      {t('agree')}{" "}
                       <a href="https://drive.google.com/file/d/1fGGo0IA23P43TwUKKcPjZCylH6Oq_YKv/view?usp=sharing">
-                        Terms and Conditions
+                        {t('terms')}
                       </a>
                       .
                     </label>

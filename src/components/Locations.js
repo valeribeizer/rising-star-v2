@@ -1,11 +1,13 @@
 import React from 'react';
 import Carousel from './Carousel';
+import { useTranslation } from 'react-i18next';
 
 function Locations() {
+  const { t } = useTranslation();
     return (
       <section id="locations">
         <div>
-          <h2>Locations</h2>
+          <h2>{t('locations')}</h2>
           <div className="row row-locations">
             <div className="col-12 col-sm-12 col-md-8 col-lg-8 text-center align-self-center">
               <Carousel />

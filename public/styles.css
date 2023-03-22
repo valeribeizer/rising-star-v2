@@ -98,39 +98,38 @@ li {
 }
 
 .pulsate-fwd {
-	-webkit-animation: pulsate-fwd 2s ease-in-out infinite both;
-	        animation: pulsate-fwd 2s ease-in-out infinite both;
+  -webkit-animation: pulsate-fwd 2s ease-in-out infinite both;
+  animation: pulsate-fwd 2s ease-in-out infinite both;
 }
 
 @-webkit-keyframes pulsate-fwd {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes pulsate-fwd {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
-
 
 /*******BANNER********/
 .row-banner {
@@ -191,6 +190,24 @@ li {
     rgba(33, 101, 131, 1) 42%,
     rgba(41, 52, 98, 1) 87%
   );
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content button {
+  margin: 10px auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /*******ABOUT US*********/

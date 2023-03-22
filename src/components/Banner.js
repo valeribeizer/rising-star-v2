@@ -1,7 +1,9 @@
 import React from 'react';
 import NavBar from './NavBar';
+import { useTranslation } from "react-i18next";
 
 function Banner() {
+    const { t } = useTranslation();
 
     return (
       <div id="banner">
@@ -10,10 +12,10 @@ function Banner() {
           <div className="row row-banner">
             <div className="col-lg-6 text-center align-self-center">
               <h1>Rising Star</h1>
-              <h4 className="h4-banner">GYMNASTICS CLUB</h4>
+              <h4 className="h4-banner">{t("club")}</h4>
               <a href="#member">
                 <button type="button" class="btn btn-banner">
-                  BECOME A MEMBER
+                  {t("member1")}
                 </button>
               </a>
             </div>

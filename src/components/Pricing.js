@@ -1,32 +1,32 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Pricing() {
+  const { t } = useTranslation();
+
     return (
       <section id="pricing">
         <div>
-          <h2>Prices</h2>
+          <h2>{t('prices')}</h2>
           <p className="about-section">
-            These prices are valid for the term "Vår-2023".
+            {t('validation')} "Vår-2023".
           </p>
           <p className="about-section">
-            Also there is a membership fee: 250 sek. It should be paid once a
-            year. Sign * means opportunity to visit more than 3 trainings a week
-            without additional fees. Also you get 10% discount for every
-            additional membership in our club.
+            {t('price_info')}
           </p>
           <div className="row row-pricing text-center">
             <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
               <div className="card">
-                <h3>Beginners</h3>
+                <h3>{t('beginners')}</h3>
                 <ul>
                   <li>
-                    1 time per week:{" "}
+                    {t('ones')}:{" "}
                     <h4>
                       1600<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
-                    2 times per week:{" "}
+                    {t('twice')}:{" "}
                     <h4>
                       2500<small className="text-muted fw-light"> sek</small>
                     </h4>
@@ -36,22 +36,22 @@ function Pricing() {
             </div>
             <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
               <div className="card">
-                <h3>Intermediate</h3>
+                <h3>{t('intermediate')}</h3>
                 <ul>
                   <li>
-                    1 time per week:{" "}
+                    {t('once')}:{" "}
                     <h4>
                       1800<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
-                    2 times per week:{" "}
+                    {t('twice')}:{" "}
                     <h4>
                       2700<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
-                    3 times per week:{" "}
+                    {t('three')}:{" "}
                     <h4>
                       3500<small className="text-muted fw-light"> sek</small>*
                     </h4>
@@ -64,19 +64,19 @@ function Pricing() {
                 <h3>Stretching</h3>
                 <ul>
                   <li>
-                    1 class:{" "}
+                    1 {t('class')}:{" "}
                     <h4>
                       150<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
-                    1 time per week:{" "}
+                    {t('once')}:{" "}
                     <h4>
                       1800<small className="text-muted fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
-                    2 times per week:{" "}
+                    {t('twice')}:{" "}
                     <h4>
                       2500<small className="text-muted fw-light"> sek</small>
                     </h4>

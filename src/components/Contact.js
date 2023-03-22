@@ -1,16 +1,19 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t } = useTranslation();
+
     return (
       <section id="contact">
         <div>
-          <h2>Let's talk!</h2>
+          <h2>{t('talk')}</h2>
           <div className="row row-contact text-center">
             <div className="col-6">
               <img className="email-img" src="email-img.png" alt="email" />
               <div className="card card-contact">
-                <h3>Drop us a letter!</h3>
-                <p className="contact-section">rg.risingstar@<br />gmail.com</p>
+                <h3>{t('letter')}</h3>
+                <p className="contact-section">rg.risingstar@gmail.com</p>
               </div>
             </div>
             <div className="col-6">
