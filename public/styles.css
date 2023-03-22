@@ -369,6 +369,10 @@ footer {
     margin-top: 30%;
   }
 
+  .dropdown {
+   direction: rtl;
+}
+
   #about {
     padding: 30% 5% 10% 5%;
   }

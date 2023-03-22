@@ -49,7 +49,7 @@ function NavBar() {
                 {t("contact")}
               </button>
             </a>
-            <div className="dropdown">
+            <div className='dropdown'>
               <FaGlobe style={{ color: "#f76262" }} />
               <div className="dropdown-content">
                 {lngs.map((lng) => {
