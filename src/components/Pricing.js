@@ -66,7 +66,7 @@ function Pricing() {
                     </h4>
                   </li>
                   <li>
-                    {t("once")}:{" "}
+                    {t("one_time")}:{" "}
                     <h4>
                       1800<small className="text-muted fw-light"> sek</small>
                     </h4>
