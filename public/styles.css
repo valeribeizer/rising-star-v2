@@ -212,25 +212,28 @@ li {
 
 .dropdown-menu {
   background: none;
+  border: none;
 }
 
 .btn-secondary {
   color: transparent;
   background-color: transparent;
-  border-color: transparent;
+  /* border-color: transparent; */
+  border: none;
   padding-right: 0px;
 }
 
 .btn-secondary:hover {
   color: transparent;
   background-color: transparent;
-  border-color: transparent;
+  /* border-color: transparent; */
+  border: none;
 }
 
 .btn-secondary:active:focus {
   color: transparent;
   background-color: transparent;
-  border-color: transparent;
+  border: none;
   box-shadow: none;
 }
 
