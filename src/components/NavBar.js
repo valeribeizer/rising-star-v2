@@ -70,7 +70,7 @@ function NavBar() {
               <div class="btn-group dropend">
                 <button
                   type="button"
-                  class="btn btn-secondary dropdown-toggle"
+                  class="btn btn-secondary"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
