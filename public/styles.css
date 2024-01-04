@@ -237,6 +237,16 @@ li {
   margin: auto 10px;
 }
 
+.sticky {
+  position: sticky;
+  z-index: 99;
+  top: 0;
+}
+
+.back {
+  background-color: rgb(18, 26, 40);
+}
+
 /*******ABOUT US*********/
 #about {
   padding: 30% 5% 10% 5%;

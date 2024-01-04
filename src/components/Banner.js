@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from './NavBar';
 import { useTranslation } from "react-i18next";
 
 function Banner() {
@@ -7,7 +6,6 @@ function Banner() {
 
     return (
       <div id="banner">
-        <NavBar />
         <div className="container">
           <div className="row row-banner">
             <div className="col-lg-6 text-center align-self-center">

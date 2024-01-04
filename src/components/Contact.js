@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 function Contact() {
   const { t } = useTranslation();
@@ -7,6 +8,12 @@ function Contact() {
     return (
       <section id="contact">
         <div>
+         <AnimatedOnScroll
+          animationIn="fadeInUp"
+          style={{
+            animationDuration: "5000ms",
+          }}
+        >
           <h2>{t('talk')}</h2>
           <div className="row row-contact text-center">
             <div className="col-6">
@@ -40,6 +47,7 @@ function Contact() {
               </div>
             </div>
           </div>
+          </AnimatedOnScroll>
         </div>
       </section>
     );
