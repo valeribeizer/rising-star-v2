@@ -25,13 +25,13 @@ function Pricing() {
                   <li>
                     {t("one_time")}:{" "}
                     <h4>
-                      1800<small className="text-muted fw-light"> sek</small>
+                      1800<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
                     {t("twice")}:{" "}
                     <h4>
-                      2500<small className="text-muted fw-light"> sek</small>
+                      2500<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                 </ul>
@@ -44,19 +44,19 @@ function Pricing() {
                   <li>
                     {t("one_time")}:{" "}
                     <h4>
-                      2000<small className="text-muted fw-light"> sek</small>
+                      2000<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
                     {t("twice")}:{" "}
                     <h4>
-                      2700<small className="text-muted fw-light"> sek</small>
+                      2700<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
                     {t("three")}:{" "}
                     <h4>
-                      3400<small className="text-muted fw-light"> sek</small>
+                      3400<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                 </ul>
@@ -69,19 +69,19 @@ function Pricing() {
                   <li>
                     {t("one_time")}:{" "}
                     <h4>
-                      2200<small className="text-muted fw-light"> sek</small>
+                      2200<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
                     {t("twice")}:{" "}
                     <h4>
-                      2900<small className="text-muted fw-light"> sek</small>
+                      2900<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
                     {t("three")}:{" "}
                     <h4>
-                      3800<small className="text-muted fw-light"> sek</small>*
+                      3800<small className="text-mute fw-light"> sek</small>*
                     </h4>
                   </li>
                 </ul>

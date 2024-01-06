@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { FaGlobe } from "react-icons/fa";
 
@@ -9,9 +9,7 @@ const lngs = [
 ];
 
 function NavBar() {
-
   const { t, i18n } = useTranslation();
-  const [navbar, setNavbar] = useState(false);
 
   const handleChange = (code) => {
     i18n.changeLanguage(code);
@@ -22,28 +20,8 @@ function NavBar() {
     nav.classList.remove("show");
   };
 
-   const changeBackground = () => {
-     console.log(window.scrollY);
-     if (window.scrollY >= 66) {
-       setNavbar(true);
-     } else {
-       setNavbar(false);
-     }
-   };
-
-   useEffect(() => {
-     changeBackground();
-     window.addEventListener("scroll", changeBackground);
-   });
-
   return (
-    <nav
-      className={
-        navbar
-          ? "navbar navbar-expand-lg navbar-light sticky back"
-          : "navbar navbar-expand-lg navbar-light sticky"
-      }
-    >
+    <nav className="navbar navbar-expand-lg navbar-light sticky">
       <div className="container-fluid base">
         <a className="navbar-brand" href="#banner">
           <img className="nav-img" src="logo.png" alt="" />
@@ -93,7 +71,7 @@ function NavBar() {
             </a>
             {window.screen.width > 576 ? (
               <div className="dropdown">
-                <FaGlobe style={{ color: "#f76262" }} />
+                <FaGlobe style={{ color: "rgb(170, 110, 143)" }} />
                 <div className="dropdown-content">
                   {lngs.map((lng) => {
                     const { code, native } = lng;
