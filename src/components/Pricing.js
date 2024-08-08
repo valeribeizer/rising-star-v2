@@ -15,31 +15,12 @@ function Pricing() {
           }}
         >
           <h2>{t("prices")}</h2>
-          <p className="about-section">{t("validation")} "Vår-2024".</p>
+          <p className="about-section">{t("validation")} "Höst-2024".</p>
           <p className="about-section">{t("price_info")}</p>
           <div className="row row-pricing text-center">
             <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
               <div className="card">
                 <h3>Pokemons/Wizards</h3>
-                <ul>
-                  <li>
-                    {t("one_time")}:{" "}
-                    <h4>
-                      1800<small className="text-mute fw-light"> sek</small>
-                    </h4>
-                  </li>
-                  <li>
-                    {t("twice")}:{" "}
-                    <h4>
-                      2500<small className="text-mute fw-light"> sek</small>
-                    </h4>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
-              <div className="card">
-                <h3>Smurfs</h3>
                 <ul>
                   <li>
                     {t("one_time")}:{" "}
@@ -53,10 +34,23 @@ function Pricing() {
                       2700<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
+              <div className="card">
+                <h3>Unicorns</h3>
+                <ul>
                   <li>
-                    {t("three")}:{" "}
+                    {t("one_time")}:{" "}
                     <h4>
-                      3400<small className="text-mute fw-light"> sek</small>
+                      2400/2600<small className="text-mute fw-light"> sek</small>
+                    </h4>
+                  </li>
+                  <li>
+                    {t("twice")}:{" "}
+                    <h4>
+                      3100<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                 </ul>
@@ -64,24 +58,24 @@ function Pricing() {
             </div>
             <div className="col-12 col-sm-12 col-md-4 col-lg-4 cards-pr">
               <div className="card">
-                <h3>Unicorns/Superheroes</h3>
+                <h3>Superheroes</h3>
                 <ul>
                   <li>
                     {t("one_time")}:{" "}
                     <h4>
-                      2200<small className="text-mute fw-light"> sek</small>
+                      2400/2600<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
                     {t("twice")}:{" "}
                     <h4>
-                      2900<small className="text-mute fw-light"> sek</small>
+                      3100/3300<small className="text-mute fw-light"> sek</small>
                     </h4>
                   </li>
                   <li>
                     {t("three")}:{" "}
                     <h4>
-                      3800<small className="text-mute fw-light"> sek</small>*
+                      4300<small className="text-mute fw-light"> sek</small>*
                     </h4>
                   </li>
                 </ul>
