@@ -26,14 +26,6 @@ function Carousel() {
         </div>
         <div className="carousel-item">
           <iframe
-            title="s3"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5344.587529418744!2d18.007641049717414!3d59.33357679671398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f762a517a1a8b%3A0x6e2fe6580fcdaaed!2sThorildshallen!5e0!3m2!1sen!2sse!4v1704392812384!5m2!1sen!2sse"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div className="carousel-item">
-          <iframe
             title="s4"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2031.4031106468692!2d17.897318116059637!3d59.3929867816811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9e54a575d0b9%3A0x1751391deac7e51d!2sGullingeskolan!5e0!3m2!1sen!2sse!4v1674080495683!5m2!1sen!2sse"
             loading="lazy"
@@ -51,7 +43,7 @@ function Carousel() {
         <div className="carousel-item">
           <iframe
             title="s5"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2032.8574030687303!2d17.838070676964374!3d59.36871877463339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9fe78991e06f%3A0x5481c9bea57a4059!2zSMOkc3NlbGJ5Z8OlcmRzc2tvbGFu!5e0!3m2!1sen!2sse!4v1704392886425!5m2!1sen!2sse"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.1950656922234!2d17.87928367693575!3d59.36308327463062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9fc219e7fe63%3A0x88511b464d9087fa!2sV%C3%A4llingbyskolan%20-%20Basketplan%202!5e0!3m2!1sen!2sid!4v1723098428179!5m2!1sen!2sid"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>

@@ -23,10 +23,9 @@ function Locations() {
               <ul>
                 <li>Globala Gymnasiet</li>
                 <li>Eriksdalsskolan</li>
-                <li>Thoridshallen</li>
                 <li>Gullingeskolan</li>
                 <li>Husbygårdsskolan</li>
-                <li>Hässelbygårdsskolan</li>
+                <li>Vällingbyskolan</li>
               </ul>
             </div>
           </div>
