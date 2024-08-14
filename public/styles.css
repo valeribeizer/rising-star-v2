@@ -289,6 +289,14 @@ li {
   display: none !important;
 }
 
+.slick-dots li.slick-active button:before {
+  color: #7e3d4a !important; 
+}
+
+.slick-dots li button:before {
+  color: #7e3d4a !important; 
+}
+
 .img-slider {
   object-fit: cover;
   width: 100%;
