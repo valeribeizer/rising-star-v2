@@ -82,7 +82,7 @@ function AboutUs() {
         <AnimatedOnScroll
           animationIn="fadeInUp"
           style={{
-            animationDuration: "5000ms",
+            animationDuration: "3000ms",
           }}
         >
           <h2>{t("about")}</h2>
@@ -100,7 +100,12 @@ function AboutUs() {
             <Slider {...settings}>
               {gallery.map(({ src, alt }, index) => (
                 <div key={index}>
-                  <img className="img-slider" src={src} alt={alt} />
+                  <img
+                    className="img-slider"
+                    src={src}
+                    alt={alt}
+                    loading="lazy"
+                  />
                 </div>
               ))}
             </Slider>

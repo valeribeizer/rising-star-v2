@@ -66,13 +66,18 @@ function Member() {
         <AnimatedOnScroll
           animationIn="fadeInUp"
           style={{
-            animationDuration: "5000ms",
+            animationDuration: "3000ms",
           }}
         >
           <h2>{t("member")}</h2>
           <div className="row row-member">
             <div className="col-12 col-md-6 col-lg-6 text-center align-self-center">
-              <img className="member-img" src="member-img.png" alt="img" />
+              <img
+                className="member-img"
+                src="member-img.png"
+                alt="img"
+                loading="lazy"
+              />
             </div>
             <div className="col-12 col-md-6 col-lg-6">
               <form className="row g-3" onSubmit={sendEmail}>

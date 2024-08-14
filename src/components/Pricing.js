@@ -11,7 +11,7 @@ function Pricing() {
         <AnimatedOnScroll
           animationIn="fadeInUp"
           style={{
-            animationDuration: "5000ms",
+            animationDuration: "3000ms",
           }}
         >
           <h2>{t("prices")}</h2>

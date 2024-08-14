@@ -18,7 +18,12 @@ function Banner() {
               </a>
             </div>
             <div className="col-lg-6 text-center align-self-center">
-              <img className="gymn-img" src="banner_gymnast.png" alt="" />
+              <img
+                className="gymn-img"
+                src="banner_gymnast.png"
+                alt=""
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
