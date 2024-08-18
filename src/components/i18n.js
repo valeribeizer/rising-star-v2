@@ -28,7 +28,7 @@ i18n.use(initReactI18next).init({
           develop into a community that creates joy and well-being.`,
         click: "Click here",
         statue: `to read the club's statute.`,
-        talk: `Get in touch`,
+        talk: `Contact us`,
         letter: "Drop us a letter!",
         btn_text: "Send",
         btn_success_text: "We got it!",

@@ -290,11 +290,11 @@ li {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #7e3d4a !important; 
+  color: #7e3d4a !important;
 }
 
 .slick-dots li button:before {
-  color: #7e3d4a !important; 
+  color: #7e3d4a !important;
 }
 
 .img-slider {
@@ -415,61 +415,13 @@ iframe {
   width: 60%;
 }
 
-/**********CONTACT************/
-#contact {
-  padding-top: 10%;
-  background: rgb(202, 239, 244);
-  background: linear-gradient(
-    170deg,
-    rgba(202, 239, 244, 1) 25%,
-    rgba(226, 201, 195, 1) 47%,
-    rgba(224, 185, 202, 1) 94%
-  );
-}
-
-#contact h3 {
-  color: rgb(170, 110, 143);
-  font-size: 16px;
-}
-
-.row-contact {
-  padding: 2% 15%;
-}
-
-.card-contact {
-  padding-top: 20%;
-}
-
-.a-c {
-  text-decoration: none;
-}
-
-.email-img {
-  width: 100px;
-  position: relative;
-  z-index: 1;
-  margin-bottom: -30px;
-}
-
-.heart-img {
-  width: 65px;
-  position: relative;
-  z-index: 1;
-  margin-bottom: -30px;
-}
-
 /********FOOTER*********/
 footer {
   font-size: 12px;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 2%;
   padding-bottom: 1%;
-  background: rgb(226, 201, 195);
-  background: linear-gradient(
-    10deg,
-    rgba(226, 201, 195, 1) 16%,
-    rgba(224, 185, 202, 1) 90%
-  );
+  background: rgb(202, 239, 244);
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -531,11 +483,6 @@ footer {
     font-size: 20px !important;
   }
 
-  p.contact-section {
-    font-size: 20px;
-    padding: 10% 0;
-  }
-
   ul.ul-locations {
     padding-top: 40% !important;
   }
@@ -585,25 +532,6 @@ footer {
   .member-img {
     width: 100%;
   }
-
-  .card-contact {
-    padding-top: 15%;
-    height: 175px;
-  }
-
-  .email-img {
-    width: 130px !important;
-    position: relative;
-    z-index: 1;
-    margin-bottom: -30px !important;
-  }
-
-  .heart-img {
-    width: 130px !important;
-    position: relative;
-    z-index: 1;
-    margin-bottom: -30px !important;
-  }
 }
 
 /* Large devices (large desktops, 992px and up) */
@@ -635,11 +563,6 @@ footer {
   p.about-section {
     font-size: 18px !important;
     padding: 2% 25% 0% 25%;
-  }
-
-  p.contact-section {
-    font-size: 18px !important;
-    padding: 2% 10% 0% 10%;
   }
 
   li {
@@ -720,13 +643,5 @@ footer {
 
   .member-img {
     width: 70%;
-  }
-
-  #contact {
-    padding: 0 !important;
-  }
-
-  .card-contact {
-    padding-top: 6%;
   }
 }

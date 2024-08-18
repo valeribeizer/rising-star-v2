@@ -69,7 +69,7 @@ function Member() {
             animationDuration: "3000ms",
           }}
         >
-          <h2>{t("member")}</h2>
+          <h2>{t("talk")}</h2>
           <div className="row row-member">
             <div className="col-12 col-md-6 col-lg-6 text-center align-self-center">
               <img
@@ -151,10 +151,39 @@ function Member() {
                     </label>
                   </div>
                 </div>
-                <div className="col-12">
-                  <button type="submit" className="btn btn-outline btn-navbar">
-                    {buttonText}
-                  </button>
+                <div
+                  className="row"
+                  style={{ paddingRight: "0px", marginTop: "16px" }}
+                >
+                  <div className="col-6">
+                    <button
+                      type="submit"
+                      className="btn btn-outline btn-navbar"
+                    >
+                      {buttonText}
+                    </button>
+                  </div>
+                  <div
+                    className="col-6 text-end"
+                    style={{ paddingRight: "0px" }}
+                  >
+                    <a
+                      className="a-c"
+                      href="https://www.facebook.com/rg.risingstar"
+                    >
+                      <img src="facebook-icon.svg" alt="facebook" />
+                    </a>
+                    <a
+                      className="a-c"
+                      href="https://www.instagram.com/rg.risingstar"
+                    >
+                      <img
+                        style={{ paddingLeft: "10px" }}
+                        src="instagram-icon.svg"
+                        alt="insta"
+                      />
+                    </a>
+                  </div>
                 </div>
               </form>
             </div>

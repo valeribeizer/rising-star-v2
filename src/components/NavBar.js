@@ -53,16 +53,16 @@ function NavBar() {
             >
               {t("prices")}
             </a>
-            <a
+            {/* <a
               className="nav-link px-4"
               href="#member"
               onClick={handleCollapse}
             >
               {t("member")}
-            </a>
+            </a> */}
             <a
               className="nav-link px-4"
-              href="#contact"
+              href="#member"
               onClick={handleCollapse}
             >
               <button type="button" className="btn btn-outline btn-navbar">
