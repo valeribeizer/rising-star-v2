@@ -25,7 +25,6 @@ function Locations() {
                 <li>Eriksdalsskolan</li>
                 <li>Gullingeskolan</li>
                 <li>Husbygårdsskolan</li>
-                <li>Vällingbyskolan</li>
               </ul>
             </div>
           </div>

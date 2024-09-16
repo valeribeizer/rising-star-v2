@@ -40,14 +40,6 @@ function Carousel() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className="carousel-item">
-          <iframe
-            title="s5"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.1950656922234!2d17.87928367693575!3d59.36308327463062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9fc219e7fe63%3A0x88511b464d9087fa!2sV%C3%A4llingbyskolan%20-%20Basketplan%202!5e0!3m2!1sen!2sid!4v1723098428179!5m2!1sen!2sid"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
       </div>
       <button
         className="carousel-control-prev"
